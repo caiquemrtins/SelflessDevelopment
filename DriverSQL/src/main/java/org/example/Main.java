@@ -12,6 +12,8 @@ public class Main {
     public static void main(String[] args) {
 
         try {
+//            Class.forName("com.mysql.jdbc.Driver");
+
             Connection connection = DriverManager.getConnection(URL, usuario, password);
 
             PreparedStatement stmt = connection.prepareStatement("INSERT INTO `testsql`.`peoples`\n" +
