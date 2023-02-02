@@ -17,7 +17,7 @@ public class Main {
             PreparedStatement stmt = connection.prepareStatement("INSERT INTO `testsql`.`peoples`\n" +
                     "(`firstname`)\n" +
                     "VALUES\n" +
-                    "('jovem');");
+                    "('TestesGitHub');");
             stmt.execute();
 
             Statement statement = connection.createStatement();
